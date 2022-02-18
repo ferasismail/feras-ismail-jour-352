@@ -1,4 +1,89 @@
+/* styles for my resume */
+
+body {
+  font-family: 'Open Sans', arial, sans-serif;
+  font-size: 1em;
+  color: #444;
+  font-weight: 400;
+}
+
+/* name at the top */
 h1{
-  font-size: 36px;
+  font-size: 3.5em;
+  text-transform: uppercase;
   color: #33485e;
+  text-align: center;
+}
+
+/* journalist banner */
+strong {
+  color: #33485e;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 2em;
+}
+
+/* section titles  */
+h2 {
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: 400;
+  background-color: #33485e;
+  color: white;
+}
+
+/* job titles */
+h3 {
+  font-size: 2em;
+  font-weight: 600;
+}
+
+/* job organizations */
+h4 {
+  font-size: 1.5em;
+  font-weight: 400;
+}
+
+/* job dates */
+h5 {
+  font-size: 1em;
+  font-weight: 400;
+  font-style: italic;
+}
+
+/* normal text */
+p {
+  font-family: 'Open Sans', arial, sans-serif;
+  font-size: 1em;
+  color: #444;
+  font-weight: 400;
+}
+
+/* list items (links and skills) */
+ul {
+  font-family: 'Open Sans', arial, sans-serif;
+  font-size: 1em;
+  color: #444;
+  font-weight: 400;
+}
+
+/* link commands */
+a {
+  text-decoration: none;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+/* after you've visited link */
+a:visited {
+  text-decoration: none;
+  color: purple;
+}
+
+/* hovering over link  */
+a:hover {
+  text-decoration: underline;
+  color: red;
 }
