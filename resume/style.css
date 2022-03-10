@@ -7,12 +7,15 @@ body {
   font-weight: 400;
 }
 
+
+/* container that wraps around the whole document */
 #container {
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
   padding-bottom: 50px;
 }
+
 
 /* name at the top */
 #name {
@@ -27,7 +30,7 @@ body {
   margin: 0 auto;
 }
 
-/* journalist banner */
+/* journalist banner, title replaces strong tags */
 #title {
   color: #33485e;
   text-transform: uppercase;
@@ -87,14 +90,26 @@ body {
   font-weight: 400;
   margin-top: 10px;
   margin-bottom: 10px;
+  margin-left: 0px;
+  margin-right: 0px;
 }
 
+
+/* keep contact info inline */
 .menu li {
-  width: 60%;
+  display: inline;
+  list-style-type: none;
+}
+
+
+/* class for contact info, centers it */
+.menu {
+  width: 100%;
   min-width: 300px;
   margin: 0 auto;
-  display: inline;
+  padding: 0px;
   text-align: center;
+  padding: 0px;
 }
 
 /* list items (links and skills) */
@@ -105,6 +120,8 @@ ul {
   font-weight: 400;
 }
 
+
+/* unordered list for education */
 #degrees {
   margin-top: 5px;
   margin-bottom: 0px;
@@ -112,6 +129,8 @@ ul {
   margin-right: 0px;
 }
 
+
+/* unordeed list of skills */
 #do {
   margin-top: 5px;
   margin-bottom: 0px;
@@ -119,11 +138,9 @@ ul {
   margin-right: 0px;
 }
 
-.top {
-  width: 60%;
-  min-width: 300px;
-  margin: 0 auto;
-}
+
+
+
 
 /* link commands */
 a {
@@ -147,7 +164,7 @@ a:hover {
 }
 
 .top {
-  width: 60%
+  width: 60%;
   min-width: 300px;
   margin: 0 auto;
   margin-bottom: 30px;
