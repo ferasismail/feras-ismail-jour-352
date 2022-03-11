@@ -1,0 +1,75 @@
+
+h1 {
+  font-family: 'Special Elite', cursive;
+  font-size: 2.5em;
+  color: black;
+  font-weight: boldest;
+  text-align: left;
+}
+
+h2 {
+  font-family: 'Special Elite', cursive;
+  font-size: 1.5em;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+}
+
+h3 {
+  font-family: 'Special Elite', cursive;
+  font-size: 1.5em;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+}
+
+p {
+  font-family: 'Open Sans';
+  font-size: 1em;
+  color: #444;
+  font-weight: 400;
+  text-align: center;
+}
+
+.col {
+  text-align: center;
+}
+
+p.lead {
+  text-align: left;
+}
+
+.col-md-4 {
+  text-align: center;
+}
+
+.bi {
+  font-size:2.5em;
+}
+
+.btn {
+  font-family: 'Special Elite', cursive;
+  margin-top: 25px;
+  text-align: center;
+  display: flex;
+}
+
+.row {
+  padding-bottom: 50px;
+}
+
+a.navbar-brand {
+    font-family: 'Special Elite', cursive;
+}
+
+
+@media screen and (max-width: 500px) {
+
+ /*Add CSS that only activates on screens less than 500x here*/
+h2 {
+  padding-top: 50px;
+}
+
+.btn {
+background-color: teal !important;
+}
