@@ -21,17 +21,42 @@ Questions
 
 UMD has the greatest students in the world.
 
+<!DOCTYPE html>
 
+<html lang="en">
+  <head>
+    <title></title>
+  </head>
+
+    <body>
+
+      <p><a href="https://www.umd.edu/"> UMD </a> has the greatest students in the world. </p>
+
+      </body>
+      </html>
 
 
 2. In which main "area" or "section" of an HTML page would you put meta tags, a webpage title and a stylesheet link?
 
-
+In the head
 
 
 3.  Write out the basic structure of an HTML page, putting the basic tags in the correct position.  (Note: you don't need to connect it to a stylesheet or include DIV tags or anything like that).
 
+<!DOCTYPE html>
 
+<html lang="en">
+  <head>
+
+    <title></title>
+
+  </head>
+
+    <body>
+
+
+      </body>
+      </html>
 
 
 
@@ -43,29 +68,38 @@ UMD has the greatest students in the world.
 
 4.  There are two main "areas" or "sections" in the basic structure of an HTML page. In which area would you put a Bootstrap "row"?
 
-
+In the body
 
 5.   Explain the purpose of using DIV tags.
 
+Div tags define sections of an html document allowing for easy CSS styling by grouping them together.
 
 
 6.  In the space below, put one DIV tag with an id of content_row and a second DIV tag with a class of headline.
 
+<div id="content_row">
+</div>
 
+<div class="headline">
+</div>
 
 
 
 
 7.  In the space below, put one DIV tag with a class of peaches and an ID of spaghetti.
 
-
+<div class="peaches" id="spaghetti">
+</div>
 
 
 
 8.  In the space below write the correct CSS code to target a <p> tag.  Make the size 5em and the background orange (#FFA500).
 
 
-
+p {
+font-size: 5em;
+color: #FFA500;
+}
 
 
 
@@ -73,17 +107,19 @@ UMD has the greatest students in the world.
 
 9. What HTML tag does this class use to make text bold? Just give me the name of the tag, you don't have to write out all the code.
 
-
+the strong tag
 
 
 10. What is the purpose of using a media query?
+
+Media queries allow for responsive design by letting you change the style of elements at different screen sizes
 
 
 
 
 11. What is the main difference between a serif and a sans-serif font?
 
-
+serif fonts like Times New Roman have a decorative stroke, while sans-serif fonts do not, they are more blocky
 
 
 12. Which of the following is a hexadecimal code?
@@ -91,6 +127,8 @@ UMD has the greatest students in the world.
 123,543,242
 101010101
 -213
+
+#FFCC33
 
 13. Find the error(s) in this CSS rule and rewrite correctly.
 
@@ -102,4 +140,12 @@ UMD has the greatest students in the world.
  font-weight:400;
 }
 
+there is a missing semi-colon after uppercase it should be:
 
+.midterm_rule {
+ fontsize:1.5em;
+ font-style italic;
+ color: #red;
+ text-transform: uppercase;
+ font-weight:400;
+}
