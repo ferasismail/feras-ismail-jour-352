@@ -1,0 +1,79 @@
+
+
+.masthead {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+#content {
+  margin: 0 auto;
+  width: 900px;
+}
+
+#byline {
+  font-family: Helvetica, sans-serif;
+  font-size: 18px;
+  font-style: italic;
+}
+
+
+h1 {
+  font-family: Garamond, serif;
+  font-size: 36px;
+}
+
+h2 {
+  font-family: Garamond, sans-serif;
+  font-size: 24px;
+  text-align: left;
+}
+
+p {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 12px;
+}
+
+blockquote {
+  font-size: 20px;
+  font-family: Helvetica, sans-serif;
+  color: #242526;
+  font-style: italic;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 50px;
+  padding-left: 15px;
+  border-left: 4px solid #ccc;
+}
+
+/* very first image, needs to be large */
+.first {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 900px;
+}
+
+/* most other images, takes center of screen */
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+/* longer picture */
+.long {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 700px;
+}
+
+/* captions for pictures - targets the p text right under images */
+p.caption {
+  text-align: center;
+  font-style: italic;
+  font-size: 12px;
+}
