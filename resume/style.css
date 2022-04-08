@@ -16,6 +16,11 @@ body {
   padding-bottom: 50px;
 }
 
+#pagetopper {
+  width: 120%;
+  margin: 0 auto;
+}
+
 
 /* name at the top */
 #name {
@@ -139,9 +144,6 @@ ul {
 }
 
 
-
-
-
 /* link commands */
 a {
   text-decoration: none;
@@ -168,4 +170,9 @@ a:hover {
   min-width: 300px;
   margin: 0 auto;
   margin-bottom: 30px;
+}
+
+.col-md-6 {
+  width: 50%
+  margin-left: 0px;
 }

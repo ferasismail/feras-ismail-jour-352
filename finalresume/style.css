@@ -1,0 +1,186 @@
+.bi {
+  font-size:2.5em;
+}
+
+.col-md-4 {
+  text-align: center;
+}
+
+/* styles for my resume */
+
+body {
+  font-family: 'Open Sans', arial, sans-serif;
+  font-size: 1em;
+  color: #444;
+  font-weight: 400;
+}
+
+
+/* container that wraps around the whole document */
+#container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
+
+#pagetopper {
+  width: 120%;
+  margin: 0 auto;
+}
+
+
+/* name at the top */
+#name {
+  font-size: 3.5em;
+  text-transform: uppercase;
+  color: #33485e;
+  text-align: center;
+  font-weight: 600;
+  border-bottom: 2px solid #33485e;
+  width: 60%;
+  min-width: 300px;
+  margin: 0 auto;
+}
+
+/* journalist banner, title replaces strong tags */
+#title {
+  color: #33485e;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 2em;
+  font-weight: 600;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+/* section titles  */
+.sectionheader {
+  font-size: 2em;
+  text-transform: uppercase;
+  font-weight: 800;
+  letter-spacing: 0.3em;
+  color: #464a4e;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  margin: 0 auto;
+  width: 70%;
+  min-width: 300px;
+}
+
+/* job titles */
+.jobtitle {
+  font-size: 2em;
+  font-weight: 600
+  
+
+}
+
+/* job organizations */
+.organization {
+  font-size: 1.5em;
+  font-weight: 400;
+}
+
+/* job dates */
+.date {
+  font-size: 1em;
+  font-weight: 400;
+  font-style: italic;
+  margin-top: 3px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+/* normal text */
+.description {
+  font-family: 'Open Sans', arial, sans-serif;
+  font-size: 1em;
+  color: #444;
+  font-weight: 400;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+
+/* keep contact info inline */
+.menu li {
+  list-style-type: none;
+}
+
+
+/* class for contact info, centers it */
+.menu {
+  width: 100%;
+  min-width: 300px;
+  margin: 0 auto;
+  padding: 0px;
+  text-align: center;
+  padding: 0px;
+}
+
+/* list items (links and skills) */
+ul {
+  font-family: 'Open Sans', arial, sans-serif;
+  font-size: 1em;
+  color: #444;
+  font-weight: 400;
+}
+
+
+/* unordered list for education */
+#degrees {
+  margin-top: 5px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+
+/* unordeed list of skills */
+#do {
+  margin-top: 5px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+
+/* link commands */
+a {
+  text-decoration: none;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+/* after you've visited link */
+a:visited {
+  text-decoration: none;
+  color: purple;
+}
+
+/* hovering over link  */
+a:hover {
+  text-decoration: underline;
+  color: red;
+}
+
+.top {
+  width: 60%;
+  min-width: 300px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+.col-md-6 {
+  width: 50%
+  margin-left: 0px;
+}
