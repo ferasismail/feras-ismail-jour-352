@@ -6,6 +6,22 @@
   text-align: center;
 }
 
+
+ .banner {
+  width: 100%;
+  height: 100%;
+  position:relative;
+  background-image: url(pagetopper.jpg);
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  padding-bottom: 800px;
+
+
+
+
+}
+
 /* styles for my resume */
 
 body {
@@ -17,52 +33,22 @@ body {
 
 
 /* container that wraps around the whole document */
-#container {
+.container {
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
   padding-bottom: 50px;
-}
-
-#pagetopper {
-  width: 120%;
-  margin: 0 auto;
-}
-
-
-/* name at the top */
-#name {
-  font-size: 3.5em;
-  text-transform: uppercase;
-  color: #33485e;
-  text-align: center;
-  font-weight: 600;
-  border-bottom: 2px solid #33485e;
-  width: 60%;
-  min-width: 300px;
-  margin: 0 auto;
-}
-
-/* journalist banner, title replaces strong tags */
-#title {
-  color: #33485e;
-  text-transform: uppercase;
-  text-align: center;
-  font-size: 2em;
-  font-weight: 600;
-  margin: 0 auto;
-  margin-top: 20px;
-  margin-bottom: 0px;
-  margin-left: 0px;
-  margin-right: 0px;
+  padding-top: 50px;
 }
 
 /* section titles  */
 .sectionheader {
-  font-size: 2em;
+  font-family: 'Proxima Nova', sans-serif;
+  font-size: 1.75em;
   text-transform: uppercase;
-  font-weight: 800;
-  letter-spacing: 0.3em;
+  text-align: left;
+  font-weight: 600;
+  letter-spacing: 0.2em;
   color: #464a4e;
   margin-top: 30px;
   margin-bottom: 20px;
@@ -71,22 +57,33 @@ body {
   min-width: 300px;
 }
 
+.maintext {
+  text-align: left;
+  padding-left: 1em;
+  line-height: 2.5em;
+}
+
 /* job titles */
 .jobtitle {
-  font-size: 2em;
-  font-weight: 600
-  
-
+  font-family: 'Lato', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 1.5em;
+  font-weight: 600;
+  color: #464a4e;
 }
 
 /* job organizations */
 .organization {
-  font-size: 1.5em;
-  font-weight: 400;
+  font-family: 'Lato', sans-serif;
+  font-size: 1.25em;
+  font-weight: 600;
+  color: #706f6f;
 }
 
 /* job dates */
 .date {
+  font-family: 'Lato', sans-serif;
   font-size: 1em;
   font-weight: 400;
   font-style: italic;
@@ -94,6 +91,7 @@ body {
   margin-bottom: 0px;
   margin-left: 0px;
   margin-right: 0px;
+  color: #706f6f;
 }
 
 /* normal text */
@@ -108,6 +106,38 @@ body {
   margin-right: 0px;
 }
 
+.graduation {
+  font-family: 'Lato', sans-serif;
+  font-size: 1em;
+  font-weight: 600;
+  color: #464a4e;
+  text-align: left;
+  padding-left: 2em;
+  margin: 0 auto;
+}
+
+.school {
+  font-family: 'Lato', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-size: 1em;
+  font-weight: 600;
+  color: #706f6f;
+  text-align: left;
+  padding-left: 2em;
+  margin: 0 auto;
+}
+
+.study {
+  font-family: 'Lato', sans-serif;
+  font-size: 1em;
+  font-weight: 600;
+  color: #706f6f;
+  text-align: left;
+  padding-left: 2em;
+  padding-bottom: 1em;
+  margin: 0 auto;
+}
 
 /* keep contact info inline */
 .menu li {
@@ -131,26 +161,19 @@ ul {
   font-size: 1em;
   color: #444;
   font-weight: 400;
+  text-align: left;
+  margin: 0 auto;
 }
 
-
-/* unordered list for education */
-#degrees {
-  margin-top: 5px;
-  margin-bottom: 0px;
-  margin-left: 0px;
-  margin-right: 0px;
+li {
+  margin: 0 auto;
 }
 
-
-/* unordeed list of skills */
-#do {
-  margin-top: 5px;
-  margin-bottom: 0px;
-  margin-left: 0px;
-  margin-right: 0px;
+.center {
+  margin: 0 auto;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
 }
-
 
 /* link commands */
 a {
@@ -183,4 +206,46 @@ a:hover {
 .col-md-6 {
   width: 50%
   margin-left: 0px;
+}
+
+/* change size of all these and change color to beige-yellow */
+.bi {
+  color: #ddc6a4;
+  text-align: left;
+  padding-right: 1em;
+  font-size: 2em;
+}
+
+
+/* the lines that separate all the section */
+.sectionlines {
+  border-bottom: 1px solid #dddddd;
+  border-left: .5px solid #dddddd;
+  padding-bottom: 1em;
+  padding-top: 1em;
+}
+
+.footer {
+  background: #000;
+  height:100px;
+  min-height: 100px;
+  padding-top:25px;
+  margin-top:100px;
+  width: 100%;
+}
+
+.footer p {
+  font-family: 'Lato', sans-serif;
+  color: white;
+  text-align: center;
+  margin: 0 auto;
+
+}
+
+@media screen and (max-width: 480px) {
+
+ /*Add CSS that only activates on screens less than 480x here*/
+
+
+
 }
