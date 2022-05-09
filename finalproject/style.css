@@ -47,8 +47,8 @@ p {
 }
 
 .stories-right {
-  text-align: right;
-  float: right;
+  margin: auto;
+  text-align: center;
   shape-outside: border-box;
   margin-left: 10px;
   margin-right: 10px;
@@ -56,7 +56,7 @@ p {
   border: 2px solid red;
   border-radius: 5px;
   padding-left: 10px;
-  width: 50%;
+  width: 35%;
   font-style: italic;
   background: rgba(255, 99, 71, 0.3);
   font-weight: 500;
