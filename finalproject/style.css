@@ -22,12 +22,11 @@ p {
 .textbox {
   float: left;
   shape-outside: border-box;
-  margin-left: -60px;
   margin-right: 10px;
   margin-bottom: 5px;
   border: solid black 1px;
   padding-left: 10px;
-  width: 50%;
+  width: 100%;
 }
 
 .stories {
@@ -39,7 +38,7 @@ p {
   border: 2px solid red;
   border-radius: 5px;
   padding-left: 10px;
-  width: 50%;
+  width: 100%;
   font-style: italic;
   background: rgba(255, 99, 71, 0.3);
   font-weight: 500;
@@ -56,7 +55,7 @@ p {
   border: 2px solid red;
   border-radius: 5px;
   padding-left: 10px;
-  width: 35%;
+  width: 100%;
   font-style: italic;
   background: rgba(255, 99, 71, 0.3);
   font-weight: 500;
@@ -77,11 +76,10 @@ p {
 .hed {
   margin-top: 1em;
   margin-bottom:1em;
-  border-top: 5px solid red;
-  border-bottom: 5px solid red;
-  font-size:3em;
+  border: 25px outset red;
+  font-size:2.75em;
   font-family: 'Oswald', sans-serif;
-  font-weight:700;
+  font-weight:650;
 }
 
 
@@ -136,9 +134,9 @@ p {
 }
 
 .main-text {
-font-family: Arial, sans-serif;
+font-family: 'Sora', sans-serif;
 font-size: 14px;
-color: black;
+color: #000000;
 padding-top:1em;
 }
 
@@ -157,7 +155,7 @@ blockquote {
   margin-bottom: 15px;
   margin-left: -50px;
   padding-left: 15px;
-  border-left: 4px solid #ccc;
+  border-left: 4px solid #d21404;
 }
 
 
