@@ -7,9 +7,10 @@ BODY {
   text-align:center;
 }
 
-p{
+p {
+  font-family: 'PT Serif', serif;
   text-align:left;
-  line-height:180%;
+  line-height:230%;
 }
 
 .navbar {
@@ -102,16 +103,28 @@ p{
 }
 
 .hero-hed {
-  font-family: 'Playfair Display', serif;
-  font-size: 6em;
+  font-family: 'Europa', serif;
+  font-size: 6.5em;
   color: #fff;
   margin: 0 auto;
-  padding-bottom: 10px;
+  padding-bottom: 15px;
 }
 
 .hero-sub {
   font-family: 'Montserrat', sans-serif;
   font-size: .25em;
+}
+
+blockquote {
+  font-size: 22px;
+  font-family: Helvetica, sans-serif;
+  color: black;
+  text-align: center;
+  font-style: italic;
+  margin-top: 35px;
+  margin-bottom: 35px;
+  padding-left: 15px;
+  border-left: 4px solid red;
 }
 
 /* media queries */
