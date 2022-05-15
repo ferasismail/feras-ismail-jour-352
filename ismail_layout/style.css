@@ -37,6 +37,7 @@ h2 {
 p {
   font-family: Georgia, serif;
   font-size: 13px;
+  line-height: 230%;
 }
 
 p.spacecraft {
@@ -56,7 +57,7 @@ p.spacecraft {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: 100%;
 }
 
 .left {
